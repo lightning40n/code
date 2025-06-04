@@ -1,8 +1,11 @@
+*{margin: 0%;}
 img{
     float: right;
 }
 h1{
-    background-color: darkblue; 
+    background-color: rgb(173, 83, 83);
+    color: brown;
+    border-bottom: 20px;
 }
 h2{
     background-color: blue;
