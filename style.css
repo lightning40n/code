@@ -1,11 +1,23 @@
-*{margin: 0%;}
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+    img.logo{
+        float: left;
+    }
+
 img{
     float: right;
 }
 h1{
+    font-size: xx-large;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 5px solid brown;
     background-color: rgb(173, 83, 83);
     color: brown;
-    border-bottom: 20px;
+    text-align: center;
 }
 h2{
     background-color: blue;
@@ -22,5 +34,10 @@ h5{
 h6{
     background-color: lightblue;
 }
-
+button{
+    height: 50;
+}
+body{
+    background-color: black;
+}
 
