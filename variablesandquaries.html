@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        :root{
+            --x: rgb(212, 44, 189);
+            --y: rgb(215, 123, 171);
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div:first-child{
+            background-color: rgb(158, 70, 240);
+        }
+        ul li{
+            padding: 20px;
+            margin: 10px;
+            background-color: var(--x);
+            list-style: none;
+        }
+        ul{
+            display: flex;
+        }
+        li:hover{
+              background-color: var(--y);
+        }
+        @media only screen and (max-width: 445px){
+              div:first-child{
+            background-color: rgb(42, 210, 126);
+        }
+        ul li{
+            padding: 20px;
+            margin: 10px;
+            background-color: rgb(32, 99, 214);
+            list-style: none;
+        }
+        ul{
+            flex-direction: column;
+        }
+        li:hover{
+              background-color: var(--x);
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="shit">
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non labore ipsa, neque natus nobis quae ipsum nesciunt rerum assumenda velit sint illo magnam ut sunt obcaecati amet. Expedita non architecto voluptates doloremque totam dolorem, soluta culpa dolores possimus eaque debitis. Nulla ullam veniam reprehenderit sunt?
+    </div>
+</body>
+</html>

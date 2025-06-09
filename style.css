@@ -18,18 +18,21 @@ h1{
     background-color: rgb(173, 83, 83);
     color: brown;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(221, 50, 164);
 }
 h2{
     background-color: blue;
 }
-h3{
+span.title{
     background-color: darkcyan;
+    font-size: large;
 }
 h4{
     background-color: cyan;
 }
-h5{
+span.para{
     background-color: aquamarine;
+    font-size: x-small;
 }
 h6{
     background-color: lightblue;
@@ -40,4 +43,15 @@ button{
 body{
     background-color: black;
 }
-
+img.force{
+    float: right;
+    position: absolute;
+    left: 96%;
+    height: 50px;
+    clear: right;
+}
+header{
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
